@@ -1,13 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Author : shenjun
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 
-public enum HandType
-{
-	RightHand,
-	LeftHand
-}
 public class MyHand : MonoBehaviour {
 
     public HandType handType = HandType.LeftHand;
